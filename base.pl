@@ -44,13 +44,13 @@ participou(brasil, copadomundo, 2014).
 participou(brasil, copadomundo, 2018).
 
 participou(espanha, copadomundo, 1934).
-participou(espanha, copadomundo, 1950).
 participou(suecia, copadomundo, 1938).
 participou(suecia, copadomundo, 1950).
+participou(espanha, copadomundo, 1950).
 participou(hungria, copadomundo, 1954).
-participou(hungria, copadomundo, 1966).
 participou(inglaterra, copadomundo, 1958).
 participou(inglaterra, copadomundo, 1962).
+participou(hungria, copadomundo, 1966).
 participou(portugal, copadomundo, 1966).
 participou(alemanha, copadomundo, 1966).
 participou(uruguai, copadomundo, 1970).
@@ -73,10 +73,17 @@ participou(inglaterra, copadomundo, 2002).
 participou(alemanha, copadomundo, 2002).
 participou(franca, copadomundo, 2006).
 participou(inglaterra, copadomundo, 2006).
+participou(holanda, copadomundo, 2010).
+participou(portugal, copadomundo, 2010).
+participou(holanda, copadomundo, 2014).
+participou(argentina, copadomundo, 2014).
+participou(argentina, copadomundo, 2018).
+participou(inglaterra, copadomundo, 2018).
+participou(alemanha, copadomundo, 2018).
 
 
-%se uma selecão ganhou uma competição entao ela participou da mesma
-participou(SELECAO, COMPETICAO, ANO) :- ganhou(SELECAO, COMPETICAO, ANO).
+%se uma selecão venceu uma competição entao ela participou da mesma
+participou(SELECAO, COMPETICAO, ANO) :- venceu(SELECAO, COMPETICAO, ANO).
 
 %venceu(seleção, competição, ano)
 venceu(uruguai, copadomundo, 1930).
