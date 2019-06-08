@@ -20,26 +20,26 @@ selecao(portugal).
 selecao(suecia).
 selecao(iugoslavia).
 
-/* maioresjogadores(JOGADOR, SELECAO) */
-maioresjogadores(pele, brasil).
-maioresjogadores(garrincha, brasil).
-maioresjogadores(vava, brasil).
-maioresjogadores(ronaldo, brasil).
-maioresjogadores(rivaldo, brasil).
-maioresjogadores(romario, brasil).
-maioresjogadores(ronaldinhogaucho, brasil).
-maioresjogadores(rivellino, brasil).
-maioresjogadores(zico, brasil).
-maioresjogadores(jairizinho, brasil).
-maioresjogadores(ademirdemenezes, brasil).
-maioresjogadores(leonidasdasilva, brasil).
-maioresjogadores(zagallo, brasil).
-maioresjogadores(carlosalberto, brasil).
-maioresjogadores(robertocarlos, brasil).
-maioresjogadores(tostao, brasil).
-maioresjogadores(didi, brasil).
-maioresjogadores(bellini, brasil).
-maioresjogadores(bebeto, brasil).
+/* maiores_jogadores(JOGADOR, SELECAO) */
+maiores_jogadores(pele, brasil).
+maiores_jogadores(garrincha, brasil).
+maiores_jogadores(vava, brasil).
+maiores_jogadores(ronaldo, brasil).
+maiores_jogadores(rivaldo, brasil).
+maiores_jogadores(romario, brasil).
+maiores_jogadores(ronaldinhogaucho, brasil).
+maiores_jogadores(rivellino, brasil).
+maiores_jogadores(zico, brasil).
+maiores_jogadores(jairizinho, brasil).
+maiores_jogadores(ademirdemenezes, brasil).
+maiores_jogadores(leonidasdasilva, brasil).
+maiores_jogadores(zagallo, brasil).
+maiores_jogadores(carlosalberto, brasil).
+maiores_jogadores(robertocarlos, brasil).
+maiores_jogadores(tostao, brasil).
+maiores_jogadores(didi, brasil).
+maiores_jogadores(bellini, brasil).
+maiores_jogadores(bebeto, brasil).
 
 /*jogadores que ganharam o titulo de melhor do mundo*/
 /*melhor_do_mundo(jogador, ano).*/
@@ -58,70 +58,69 @@ rival(alemanha).
 rival(italia).
 rival(franca).
 
-/*participou(seleção, competição, ano)*/
-participou(brasil, copa_do_mundo, 1930).
-participou(brasil, copa_do_mundo, 1934).
-participou(brasil, copa_do_mundo, 1938).
-participou(brasil, copa_do_mundo, 1950).
-participou(brasil, copa_do_mundo, 1954).
-participou(brasil, copa_do_mundo, 1958).
-participou(brasil, copa_do_mundo, 1962).
-participou(brasil, copa_do_mundo, 1966).
-participou(brasil, copa_do_mundo, 1970).
-participou(brasil, copa_do_mundo, 1974).
-participou(brasil, copa_do_mundo, 1978).
-participou(brasil, copa_do_mundo, 1982).
-participou(brasil, copa_do_mundo, 1986).
-participou(brasil, copa_do_mundo, 1990).
-participou(brasil, copa_do_mundo, 1994).
-participou(brasil, copa_do_mundo, 1998).
-participou(brasil, copa_do_mundo, 2002).
-participou(brasil, copa_do_mundo, 2006).
-participou(brasil, copa_do_mundo, 2010).
-participou(brasil, copa_do_mundo, 2014).
-participou(brasil, copa_do_mundo, 2018).
+/*classificou(seleção, competição, ano)*/
+classificou(brasil, copa_do_mundo, 1930).
+classificou(brasil, copa_do_mundo, 1934).
+classificou(brasil, copa_do_mundo, 1938).
+classificou(brasil, copa_do_mundo, 1950).
+classificou(brasil, copa_do_mundo, 1954).
+classificou(brasil, copa_do_mundo, 1958).
+classificou(brasil, copa_do_mundo, 1962).
+classificou(brasil, copa_do_mundo, 1966).
+classificou(brasil, copa_do_mundo, 1970).
+classificou(brasil, copa_do_mundo, 1974).
+classificou(brasil, copa_do_mundo, 1978).
+classificou(brasil, copa_do_mundo, 1982).
+classificou(brasil, copa_do_mundo, 1986).
+classificou(brasil, copa_do_mundo, 1990).
+classificou(brasil, copa_do_mundo, 1994).
+classificou(brasil, copa_do_mundo, 1998).
+classificou(brasil, copa_do_mundo, 2002).
+classificou(brasil, copa_do_mundo, 2006).
+classificou(brasil, copa_do_mundo, 2010).
+classificou(brasil, copa_do_mundo, 2014).
+classificou(brasil, copa_do_mundo, 2018).
 
-participou(espanha, copa_do_mundo, 1934).
-participou(suecia, copa_do_mundo, 1938).
-participou(suecia, copa_do_mundo, 1950).
-participou(espanha, copa_do_mundo, 1950).
-participou(hungria, copa_do_mundo, 1954).
-participou(inglaterra, copa_do_mundo, 1958).
-participou(inglaterra, copa_do_mundo, 1962).
-participou(hungria, copa_do_mundo, 1966).
-participou(portugal, copa_do_mundo, 1966).
-participou(alemanha, copa_do_mundo, 1966).
-participou(uruguai, copa_do_mundo, 1970).
-participou(italia, copa_do_mundo, 1970).
-participou(argentina, copa_do_mundo, 1974).
-participou(holanda, copa_do_mundo, 1974).
-participou(suecia, copa_do_mundo, 1978).
-participou(espanha, copa_do_mundo, 1978).
-participou(argentina, copa_do_mundo, 1982).
-participou(franca, copa_do_mundo, 1982).
-participou(alemanha, copa_do_mundo, 1982).
-participou(espanha, copa_do_mundo, 1986).
-participou(franca, copa_do_mundo, 1986).
-participou(argentina, copa_do_mundo, 1990).
-participou(suecia, copa_do_mundo, 1994).
-participou(holanda, copa_do_mundo, 1994).
-participou(italia, copa_do_mundo, 1994).
-participou(holanda, copa_do_mundo, 1998).
-participou(inglaterra, copa_do_mundo, 2002).
-participou(alemanha, copa_do_mundo, 2002).
-participou(franca, copa_do_mundo, 2006).
-participou(inglaterra, copa_do_mundo, 2006).
-participou(holanda, copa_do_mundo, 2010).
-participou(portugal, copa_do_mundo, 2010).
-participou(holanda, copa_do_mundo, 2014).
-participou(argentina, copa_do_mundo, 2014).
-participou(argentina, copa_do_mundo, 2018).
-participou(inglaterra, copa_do_mundo, 2018).
-participou(alemanha, copa_do_mundo, 2018).
+classificou(espanha, copa_do_mundo, 1934).
+classificou(suecia, copa_do_mundo, 1938).
+classificou(suecia, copa_do_mundo, 1950).
+classificou(espanha, copa_do_mundo, 1950).
+classificou(hungria, copa_do_mundo, 1954).
+classificou(inglaterra, copa_do_mundo, 1958).
+classificou(inglaterra, copa_do_mundo, 1962).
+classificou(hungria, copa_do_mundo, 1966).
+classificou(portugal, copa_do_mundo, 1966).
+classificou(alemanha, copa_do_mundo, 1966).
+classificou(uruguai, copa_do_mundo, 1970).
+classificou(italia, copa_do_mundo, 1970).
+classificou(argentina, copa_do_mundo, 1974).
+classificou(holanda, copa_do_mundo, 1974).
+classificou(suecia, copa_do_mundo, 1978).
+classificou(espanha, copa_do_mundo, 1978).
+classificou(argentina, copa_do_mundo, 1982).
+classificou(franca, copa_do_mundo, 1982).
+classificou(alemanha, copa_do_mundo, 1982).
+classificou(espanha, copa_do_mundo, 1986).
+classificou(franca, copa_do_mundo, 1986).
+classificou(argentina, copa_do_mundo, 1990).
+classificou(suecia, copa_do_mundo, 1994).
+classificou(holanda, copa_do_mundo, 1994).
+classificou(italia, copa_do_mundo, 1994).
+classificou(holanda, copa_do_mundo, 1998).
+classificou(inglaterra, copa_do_mundo, 2002).
+classificou(alemanha, copa_do_mundo, 2002).
+classificou(franca, copa_do_mundo, 2006).
+classificou(inglaterra, copa_do_mundo, 2006).
+classificou(holanda, copa_do_mundo, 2010).
+classificou(portugal, copa_do_mundo, 2010).
+classificou(holanda, copa_do_mundo, 2014).
+classificou(argentina, copa_do_mundo, 2014).
+classificou(argentina, copa_do_mundo, 2018).
+classificou(inglaterra, copa_do_mundo, 2018).
+classificou(alemanha, copa_do_mundo, 2018).
 
 /*se uma seleção venceu uma competição entao ela participou da mesma*/
-r_participou(SELECAO, COMPETICAO, ANO) :- participou(SELECAO, COMPETICAO, ANO), !; venceu(SELECAO, COMPETICAO, ANO).
-
+participou(SELECAO, COMPETICAO, ANO) :- classificou(SELECAO, COMPETICAO, ANO), !; venceu(SELECAO, COMPETICAO, ANO).
 todas_copas(SELECAO) :- aggregate_all(count, participou(SELECAO, copa_do_mundo, _), Count), Count = 21.
 
 /* sede(competição, ano, local) */
