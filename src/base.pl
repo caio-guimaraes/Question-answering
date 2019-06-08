@@ -298,7 +298,7 @@ artilheiros(rivelino, 43).
 artilheiros(bebeto, 39).
 artilheiros(rivaldo, 37).
 
-/*serie sem derrota(jogos,desde,adversario_ultima,ate,adversario_fim)*/
+/*serie sem derrota(jogos,desde,ultima_derrota,ate,fim_da_sequencia)*/
 sem_derrota(13,1954,hungria,1966,hungria).
 sem_derrota(11,1966,portugal,1974,holanda).
 sem_derrota(11,1974,polonia,2082,italia).
@@ -316,7 +316,6 @@ final_dif_tres(italia,1,4,1970).
 final_dif_tres(franca,3,0,1998).
 
 /*derrotas na fase de grupos da copa(derrotas,ano)*/
-derrota_grupo(3,1950).
 derrota_grupo(2,1966).
 derrota_grupo(1,1998).
 
