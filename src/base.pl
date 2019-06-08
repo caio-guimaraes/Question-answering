@@ -21,8 +21,8 @@ selecao(suecia).
 selecao(iugoslavia).
 
 /* maioresjogadores(JOGADOR, SELECAO) */
-maioresjogadores(pele, brasil)
-maioresjogadores(garrinhca, brasil)
+maioresjogadores(pele, brasil).
+maioresjogadores(garrincha, brasil).
 maioresjogadores(vava, brasil).
 maioresjogadores(ronaldo, brasil).
 maioresjogadores(rivaldo, brasil).
@@ -32,7 +32,7 @@ maioresjogadores(rivellino, brasil).
 maioresjogadores(zico, brasil).
 maioresjogadores(jairizinho, brasil).
 maioresjogadores(ademirdemenezes, brasil).
-maioresjogadores(leonidasdasilva, brasil)
+maioresjogadores(leonidasdasilva, brasil).
 maioresjogadores(zagallo, brasil).
 maioresjogadores(carlosalberto, brasil).
 maioresjogadores(robertocarlos, brasil).
@@ -146,7 +146,7 @@ sede(copadomundo, 2018, russia).
 sede(olimpiadas, 2016, riodejaneiro).
 
 /*se uma seleção venceu uma competição entao ela participou da mesma*/
-participou(SELECAO, COMPETICAO, ANO) :- venceu(SELECAO, COMPETICAO, ANO).
+r_participou(SELECAO, COMPETICAO, ANO) :- participou(SELECAO, COMPETICAO, ANO), !; venceu(SELECAO, COMPETICAO, ANO).
 
 /*lista de eliminações da seleção brasileira*/
 /*eliminadopor(seleção1, seleção2, competição, ano)*/
