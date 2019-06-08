@@ -121,7 +121,7 @@ classificou(alemanha, copa_do_mundo, 2018).
 
 /*se uma seleção venceu uma competição entao ela participou da mesma*/
 participou(SELECAO, COMPETICAO, ANO) :- classificou(SELECAO, COMPETICAO, ANO), !; venceu(SELECAO, COMPETICAO, ANO).
-todas_copas(SELECAO) :- aggregate_all(count, participou(SELECAO, copa_do_mundo, _), Count), Count = 21.
+todas_copas(SELECAO) :- aggregate_all(count, classificou(SELECAO, copa_do_mundo, _), Count), Count = 21.
 
 /* sede(competição, ano, local) */
 sede(copa_do_mundo, 1930, uruguai).
@@ -151,7 +151,7 @@ sede(olimpiadas, 2016, riodejaneiro).
 
 /*lista de eliminações da seleção brasileira*/
 /*eliminado_por(seleção1, seleção2, competição, ano)*/
-eliminado_por(brasil, iugoslavia, copa-do-mundo, 1930).
+eliminado_por(brasil, iugoslavia, copa_do_mundo, 1930).
 eliminado_por(brasil, espanha, copa_do_mundo, 1934).
 eliminado_por(brasil, italia, copa_do_mundo, 1938).
 eliminado_por(brasil, uruguai, copa_do_mundo, 1950).
@@ -220,11 +220,22 @@ tetracampeao(SELECAO, COMPETICAO) :- aggregate_all(count, venceu(SELECAO, COMPET
 tricampeao(SELECAO, COMPETICAO) :- aggregate_all(count, venceu(SELECAO, COMPETICAO, _), Count), Count = 3.
 bicampeao(SELECAO, COMPETICAO) :- aggregate_all(count, venceu(SELECAO, COMPETICAO, _), Count), Count = 2.
 
+/*Uniformes*/
+/*uniforme(membro, tipo, camisa, calção, meias).*/
+uniforme(jogador, principal, amarelo, azul, branco).
+uniforme(jogador, visitante, azul, branco, azul).
+uniforme(jogador, alternativo, azul, branco, branco).
 
-/*lista de tecnicos*/
-treinador(vicente_feola).
+uniforme(goleiro, principal, preto, preto, preto).
+uniforme(goleiro, visitante, cinza, cinza, cinza).
+uniforme(goleiro, alternativo, verde_claro, verde_claro, verde_claro).
 
-%lista de patrocinadores
+uniforme(jogador, treino, verde_escuro, verde_escuro, branco).
+uniforme(goleiro, treino, verde_claro, verde_escuro, branco).
+uniforme(comissao_tecnica, treino, branco, verde_escuro, branco).
+
+/*lista de patrocinadores*/
+/*patrocinador(marca, inicio, fim)*/
 patrocinador(itau, 2008, 2022).
 patrocinador(vivo, 2005, 2023).
 patrocinador(guarana_antartica, 2001, 2019).
@@ -235,7 +246,42 @@ patrocinador(cimed, 2016, 2023).
 patrocinador(semp, 2019, 2022).
 patrocinador(nike, 1996, 2018).
 
+/*Uma marca patrocina a seleção em tal ANO, se o contrato de patrocinador está entre INI e FIM*/
 patrocina(MARCA, ANO) :- patrocinador(MARCA, INI, FIM), ANO >= INI, ANO =< FIM.
+
+fazparte(JOGADOR, brasil) :- compoe_elenco(JOGADOR, _, _, _, _).
+
+/*Elenco atual*/
+/*compoe_elenco(jogador, numero, posicao, idade, clube)*/
+compoe_elenco(alisson, 1, goleiro, 26, liverpool).
+compoe_elenco(cassio, 16, goleiro, 31, corinthians).
+compoe_elenco(ederson, 23, goleiro, 25, manchester_city).
+compoe_elenco(filipe_luis, 6, lateral, 33, atletico_de_madrid).
+compoe_elenco(alex_sandro, 12, lateral, 28, juventus).
+compoe_elenco(daniel_alves, 13, lateral, 36, paris_saint_germain).
+compoe_elenco(fagner, 22, lateral, 29, corinthians).
+compoe_elenco(thiago_silva, 2, zagueiro, 34, paris_saint_germain).
+compoe_elenco(miranda, 3, zagueiro, 34, internazionale).
+compoe_elenco(marquinhos, 4, zagueiro, 24, paris_saint_germain).
+compoe_elenco(eder_militao, 14, zagueiro, 21, porto).
+compoe_elenco(casemiro, 5, volante, 27, real_madrid).
+compoe_elenco(arthur, 8, volante, 22, barcelona).
+compoe_elenco(allan, 15, volante, 28, napoli).
+compoe_elenco(fernandinho, 17, volante, 34, manchester_city).
+compoe_elenco(philippe_coutinho, 11, meia, 26, barcelona).
+compoe_elenco(lucas_paqueta, 18, meia, 21, milan).
+compoe_elenco(david_neres, 7, atacante, 22, ajax).
+compoe_elenco(gabriel_jesus, 9, atacante, 21, manchester_city).
+compoe_elenco(neymar, 10, atacante, 27, paris_saint_germain).
+compoe_elenco(everton, 19, atacante, 22, gremio).
+compoe_elenco(roberto_firmino, 20, atacante, 27, liverpool).
+compoe_elenco(richarlison, 21, atacante, 21, everton).
+
+posicao(JOGADOR, POSICAO) :- compoe_elenco(JOGADOR, _, POSICAO, _, _).
+numero(JOGADOR, NUMERO) :- compoe_elenco(JOGADOR, NUMERO, _, _, _).
+clube(JOGADOR, CLUBE) :- compoe_elenco(JOGADOR, _, _, _, CLUBE).
+idade(JOGADOR, IDADE) :- compoe_elenco(JOGADOR, _, _, IDADE, _).
+
 
 /*lista de artilheiros da seleção*/
 artilheiros(pele, 77).
