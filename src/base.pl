@@ -346,11 +346,32 @@ artilheiros(rivelino, 43).
 artilheiros(bebeto, 39).
 artilheiros(rivaldo, 37).
 
+/*jogo(id_jogo, ano)*/
+jogo(1, 1930).
+jogo(2, 1934).
+jogo(3, 1938).
+jogo(4, 1938).
+jogo(5, 1938).
+
+/*contra(id_jogo, adversario).*/
+contra(1, iugoslavia).
+contra(2, espanha).
+contra(3, tchecoslovaquia).
+contra(4, tchecoslovaquia).
+contra(5, italia).
+
+
+/*placar(id_jogo, [gols_brasil, gols_adversario])*/
+placar(1, [1,2]).
+placar(2, [1,3]).
+placar(3, [1,1]).
+placar(4, [2,1]).
+placar(5, [2,3]).
+
+
+
 /*(seleção1, gols1, gols2, seleção2, competição, ano).*/
-jogou(brasil, 1, 2, iugoslavia, copa_do_mundo, 1930).
-jogou(brasil, 1, 3, espanha, copa_do_mundo, 1934).
-jogou(brasil, 1, 1, tchecoslovaquia, copa_do_mundo, 1938).
-jogou(brasil, 2, 1, tchecoslovaquia, copa_do_mundo, 1938).
+
 jogou(brasil, 5, 2, suecia, copa_do_mundo, 1958).
 jogou(brasil, 0, 0, tchecoslovaquia, copa_do_mundo, 1962).
 jogou(brasil, 3, 1, tchecoslovaquia, copa_do_mundo, 1962).
