@@ -213,10 +213,6 @@ venceu_copa_das_confederacoes(brasil, 2013).
 
 venceu_olimpiadas(brasil, 2016).
 
-/*se o brasil nao foi eliminado por nenhuma seleção em um determinado ano entao ele venceu a competição*/
-/*inutil por enquanto
-venceu(brasil, COMPETICAO, ANO) :- not(eliminado_por(brasil, _, COMPETICAO, ANO)).*/
-
 campeao_mundial(SELECAO) :- venceu_copa_do_mundo(SELECAO,_), !.
 campeao_olimpico(SELECAO) :- venceu_olimpiadas(SELECAO,_).
 
@@ -346,12 +342,13 @@ artilheiros(rivelino, 43).
 artilheiros(bebeto, 39).
 artilheiros(rivaldo, 37).
 
+/*lista de jogos do brasil na copa do mundo*/
 /*jogo(id_jogo, ano)*/
-jogo(1, 1930).
-jogo(2, 1934).
-jogo(3, 1938).
-jogo(4, 1938).
-jogo(5, 1938).
+jogou(1, 1930).
+jogou(2, 1934).
+jogou(3, 1938).
+jogou(4, 1938).
+jogou(5, 1938).
 jogou(6, 1950).
 jogou(7, 1950).
 jogou(8, 1950).
@@ -386,35 +383,43 @@ jogou(36, 1978).
 jogou(37, 1978).
 jogou(38, 1978).
 jogou(39, 1978).
-jogou(40, 1982).
+jogou(40, 1978).
 jogou(41, 1982).
 jogou(42, 1982).
 jogou(43, 1982).
 jogou(44, 1982).
-jogou(45, 1986).
+jogou(45, 1982).
 jogou(46, 1986).
 jogou(47, 1986).
 jogou(48, 1986).
 jogou(49, 1986).
-jogou(50, 1998).
-jogou(51, 1998).
-jogou(52, 1998).
-jogou(53, 2006).
-jogou(54, 2006).
-jogou(55, 2010).
-jogou(56, 2010).
-jogou(57, 2010).
-jogou(58, 2010).
-jogou(59, 2010).
-jogou(60, 2014).
-jogou(61, 2014).
-jogou(62, 2014).
-jogou(63, 2014).
-jogou(64, 2014).
-jogou(65, 2018).
-jogou(66, 2018).
-jogou(67, 2018).
-jogou(68, 2018).
+jogou(50, 1986).
+jogou(51, 1994).
+jogou(52, 1994).
+jogou(53, 1998).
+jogou(54, 1998).
+jogou(55, 1998).
+jogou(56, 1998).
+jogou(57, 1998).
+jogou(58, 2002).
+jogou(59, 2002).
+jogou(60, 2006).
+jogou(61, 2006).
+jogou(62, 2010).
+jogou(63, 2010).
+jogou(64, 2010).
+jogou(65, 2010).
+jogou(66, 2010).
+jogou(67, 2014).
+jogou(68, 2014).
+jogou(69, 2014).
+jogou(70, 2014).
+jogou(71, 2014).
+jogou(72, 2014).
+jogou(73, 2018).
+jogou(74, 2018).
+jogou(75, 2018).
+jogou(76, 2018).
 
 /*contra(id_jogo, adversario).*/
 contra(1, iugoslavia).
@@ -440,51 +445,59 @@ contra(20, inglaterra).
 contra(21, chile).
 contra(22, tchecoslovaquia).
 contra(23, bulgaria).
-contra(24, Hungria).
-contra(25, Portugal).
-contra(26, Peru).
-contra(27, Uruguai).
-contra(28, Italia).
-contra(29, Zaire).
-contra(30, Alemanha Oriental).
-contra(31, Argentina).
-contra(32, Holanda).
-contra(33, Polônia).
-contra(34, Suécia).
-contra(35, Espanha).
-contra(36, Áustria).
-contra(37, Peru).
-contra(38, Argentina).
-contra(39, Polônia).
-contra(40, União Soviética).
-contra(41, Escócia).
-contra(42, Nova Zelândia).
-contra(43, Argentina).
-contra(44, Italia).
-contra(45, Espanha).
-contra(46, Argélia).
-contra(47, Irlanda do Norte).
-contra(48, Polônia).
-contra(49, França).
-contra(50, Noruega).
-contra(51, Chile).
-contra(52, Dinamarca).
-contra(53, Gana).
-contra(54, França).
-contra(55, Coreia do Norte).
-contra(56, Costa do Marfim).
-contra(57, Portugal).
-contra(58, Chile).
-contra(59, Países Baixos).
-contra(60, Croácia).
-contra(61, México).
-contra(62, Camarões).
-contra(63, Colômbia).
-contra(64, Alemanha).
-contra(65, Suíça).
-contra(66, Sérvia).
-contra(67, México).
-contra(68, Bélgica).
+contra(24, hungria).
+contra(25, portugal).
+contra(26, peru).
+contra(27, uruguai).
+contra(28, italia).
+contra(29, zaire).
+contra(30, alemanha).
+contra(31, argentina).
+contra(32, holanda).
+contra(33, polonia).
+contra(34, suecia).
+contra(35, espanha).
+contra(36, austria).
+contra(37, peru).
+contra(38, argentina).
+contra(39, polonia).
+contra(40, italia).
+contra(41, uniao_sovietica).
+contra(42, escocia).
+contra(43, nova_zelandia).
+contra(44, argentina).
+contra(45, italia).
+contra(46, espanha).
+contra(47, argelia).
+contra(48, irlanda_do_norte).
+contra(49, polonia).
+contra(50, franca).
+contra(51, suecia).
+contra(52, suecia).
+contra(53, noruega).
+contra(54, chile).
+contra(55, dinamarca).
+contra(56, holanda).
+contra(57, franca).
+contra(58, turquia).
+contra(59, turquia).
+contra(60, gana).
+contra(61, franca).
+contra(62, coreia_do_norte).
+contra(63, costa_do_marfim).
+contra(64, portugal).
+contra(65, chile).
+contra(66, holanda).
+contra(67, croacia).
+contra(68, mexico).
+contra(69, camaroes).
+contra(70, colombia).
+contra(71, alemanha).
+contra(72, holanda).
+contra(73, suica).
+contra(74, servia).
+contra(75, mexico).
+contra(76, belgica).
 
 /*placar(id_jogo, [gols_brasil, gols_adversario])*/
 placar(1, [1,2]).
@@ -527,77 +540,39 @@ placar(37, [3,0]).
 placar(38, [0,0]).
 placar(39, [3,1]).
 placar(40, [2,1]).
-placar(41, [4,1]).
-placar(42, [4,0]).
-placar(43, [3,1]).
-placar(44, [2,3]).
-placar(45, [1,0]).
+placar(41, [2,1]).
+placar(42, [4,1]).
+placar(43, [4,0]).
+placar(44, [3,1]).
+placar(45, [2,3]).
 placar(46, [1,0]).
-placar(47, [3,0]).
-placar(48, [4,0]).
-placar(49, [4,3]).
-placar(50, [1,2]).
-placar(51, [4,1]).
-placar(52, [3,2]).
-placar(53, [3,0]).
-placar(54, [0,1]).
-placar(55, [2,1]).
-placar(56, [3,1]).
-placar(57, [0,0]).
-placar(58, [3,0]).
-placar(59, [1,2]).
-placar(60, [3,1]).
-placar(61, [0,0]).
-placar(62, [4,1]).
-placar(63, [2,1]).
-placar(64, [1,7]).
-placar(65, [1,1]).
-placar(66, [2,0]).
-placar(67, [2,0]).
-placar(68, [2,1]).
-
-/*(seleção1, gols1, gols2, seleção2, competição, ano).*/
-
-jogou(brasil, 5, 2, suecia, copa_do_mundo, 1958).
-jogou(brasil, 0, 0, tchecoslovaquia, copa_do_mundo, 1962).
-jogou(brasil, 3, 1, tchecoslovaquia, copa_do_mundo, 1962).
-jogou(brasil, 1, 3, hungria, copa_do_mundo, 1966).
-jogou(brasil, 1, 3, portugal, copa_do_mundo, 1966).
-jogou(brasil, 4, 1, italia, copa_do_mundo, 1970).
-jogou(brasil, 0, 2, holanda, copa_do_mundo, 1974).
-jogou(brasil, 0, 1, polonia, copa_do_mundo, 1974).
-jogou(brasil, 2, 1, italia, copa_do_mundo, 1978).
-jogou(brasil, 1, 1, suecia, copa_do_mundo, 1994).
-jogou(brasil, 1, 0, suecia, copa_do_mundo, 1994).
-jogou(brasil, 1, 2, noruega, copa_do_mundo, 1998).
-jogou(brasil, 0, 3, franca, copa_do_mundo, 1998).
-jogou(brasil, 2, 1, turquia, copa_do_mundo, 2002).
-jogou(brasil, 1, 0, turquia, copa_do_mundo, 2002).
-jogou(brasil, 1, 7, alemanha, copa_do_mundo, 2014).
-jogou(brasil, 0, 3, holanda, copa_do_mundo, 2014).
-jogou(brasil, 0, 6, uruguai, copa_america, 1920).
-
-
-/*serie sem derrota(jogos,desde,ultima_derrota,ate,fim_da_sequencia)*/
-sem_derrota(13, 1954, hungria, 1966, hungria).
-sem_derrota(11, 1966, portugal, 1974, holanda).
-sem_derrota(11, 1974, polonia, 2082, italia).
-sem_derrota(11, 1998, franca, 2006, franca).
-
-
-/*derrotas na fase de grupos da copa(derrotas,ano)*/
-derrota_grupo(2,1966).
-derrota_grupo(1,1998).
-
-/*derrotas na estreia copa do mundo(ano,adversario,gols_ad,gols_br)*/
-derrrota_estreia(1930, iugoslavia,2,1).
-derrrota_estreia(1934, espanha,3,1).
-
-/*empates na estreia copa do mundo(ano,adversario,gols)*/
-empate_estreia(1974, iugoslavia,0).
-empate_estreia(1978, suecia,1).
-empate_estreia(2018, suica,1).
-
-/* copas em que o brasil jogou pelo 3o lugar (ano,adversario, gols_ad, gols_br)*/
-disputou_terceiro(1974, polonia, 1, 0).
-disputou_terceiro(1978, italia, 1, 2).
+placar(47, [1,0]).
+placar(48, [3,0]).
+placar(49, [4,0]).
+placar(50, [4,3]).
+placar(51, [1,1]).
+placar(52, [1,0]).
+placar(53, [1,2]).
+placar(54, [4,1]).
+placar(55, [3,2]).
+placar(56, [1,1]).
+placar(57, [0,3]).
+placar(58, [2,1]).
+placar(59, [1,0]).
+placar(60, [3,0]).
+placar(61, [0,1]).
+placar(62, [2,1]).
+placar(63, [3,1]).
+placar(64, [0,0]).
+placar(65, [3,0]).
+placar(66, [1,2]).
+placar(67, [3,1]).
+placar(68, [0,0]).
+placar(69, [4,1]).
+placar(70, [2,1]).
+placar(71, [1,7]).
+placar(72, [0,3]).
+placar(73, [1,1]).
+placar(74, [2,0]).
+placar(75, [2,0]).
+placar(76, [1,2]).
