@@ -2,13 +2,13 @@
 ?- jogou(brasil, GOLS1, GOLS2, SELECAO, copa_do_mundo, _) , 3 is abs(GOLS1 - GOLS2).
 
 % 2- Qual jogador do Brasil que usa a camisa 7 e em qual clube ele joga?
-?- numero(JOGADOR, 7) , clube(JOGADOR, CLUBE).
+?- numero(JOGADOR, 7) , joga_no_clube(JOGADOR, CLUBE).
 
 % 3- Qual seleção jogou contra o Brasil resultando numa diferença de 3 gols e ganhou a copa e em qual ano?
 ?- jogou(brasil, GOLS1, GOLS2, SELECAO, copa_do_mundo, _) , 3 is abs(GOLS1 - GOLS2), venceu(SELECAO, copa_do_mundo, ANO).
 
 % 4 -Qual seleção sediou e venceu uma copa do mundo?
-?- venceu(SELECAO, copa_do_mundo, ANO),sede(copa_do_mundo, ANO, SELECAO).
+?- venceu_copa_do_mundo(SELECAO, ANO), sede(ANO, SELECAO).
 
 % 5 - Qual seleção eliminou o brasil por 6 gols de diferença?
 ?- eliminado_por(brasil, SELECAO, _, _), jogou(brasil, GOLS1, GOLS2, SELECAO, _, _), 6 is GOLS2 - GOLS1.
@@ -21,3 +21,6 @@
 
 % 8 - Qual o maior artilheiro da seleção?
 ?- findall(GOLS,artilheiros(JOGADOR,GOLS),LISTA_GOLS), max_list(LISTA_GOLS,MAX),artilheiros(JOGADOR,MAX).
+
+% 9 -
+?- jogador(alisson, POSICAO), uniforme_principal(POSICAO, CORES).
