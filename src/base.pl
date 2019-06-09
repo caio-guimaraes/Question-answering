@@ -352,6 +352,24 @@ jogo(2, 1934).
 jogo(3, 1938).
 jogo(4, 1938).
 jogo(5, 1938).
+jogou(6, 1950).
+jogou(7, 1950).
+jogou(8, 1950).
+jogou(9, 1950).
+jogou(10, 1950).
+jogou(11, 1950).
+jogou(12, 1954).
+jogou(13, 1958).
+jogou(14, 1958).
+jogou(15, 1958).
+jogou(16, 1958).
+jogou(17, 1962).
+jogou(18, 1962).
+jogou(19, 1962).
+jogou(20, 1962).
+jogou(21, 1962).
+jogou(22, 1962).
+
 
 /*contra(id_jogo, adversario).*/
 contra(1, iugoslavia).
@@ -359,6 +377,24 @@ contra(2, espanha).
 contra(3, tchecoslovaquia).
 contra(4, tchecoslovaquia).
 contra(5, italia).
+contra(6, mexico).
+contra(7, suica).
+contra(8, iugoslavia).
+contra(9, suecia).
+contra(10, espanha).
+contra(11, uruguai).
+contra(12, hungria).
+contra(13, austria).
+contra(14, inglaterra).
+contra(15, uniao_sovietica).
+contra(16, suecia).
+contra(17, mexico).
+contra(18, tchecoslovaquia).
+contra(19, espanha).
+contra(20, inglaterra).
+contra(21, chile).
+contra(22, tchecoslovaquia).
+
 
 
 /*placar(id_jogo, [gols_brasil, gols_adversario])*/
@@ -367,8 +403,23 @@ placar(2, [1,3]).
 placar(3, [1,1]).
 placar(4, [2,1]).
 placar(5, [2,3]).
-
-
+placar(6, [4,0]).
+placar(7, [2,2]).
+placar(8, [2,0]).
+placar(9, [7,1]).
+placar(10, [6,1]).
+placar(11, [1,2]).
+placar(12, [2,4]).
+placar(13, [3,0]).
+placar(14, [0,0]).
+placar(15, [2,0]).
+placar(16, [5,2]).
+placar(17, [2,0]).
+placar(18, [0,0]).
+placar(19, [2,1]).
+placar(20, [3,1]).
+placar(21, [4,2]).
+placar(22, [3,1]).
 
 /*(seleção1, gols1, gols2, seleção2, competição, ano).*/
 
