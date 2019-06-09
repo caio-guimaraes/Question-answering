@@ -20,4 +20,4 @@
 ?- patrocina(nike,2000).
 
 % 8 - Qual o maior artilheiro da seleção?
-?- artilheiros(JOGADOR1, GOLS1), artilheiros(JOGADOR2, GOLS2), JOGADOR1 @> JOGADOR2, max(GOLS1, GOLS2).
+?- findall(GOLS,artilheiros(JOGADOR,GOLS),LISTA_GOLS), max_list(LISTA_GOLS,MAX),artilheiros(JOGADOR,MAX).
