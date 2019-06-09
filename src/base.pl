@@ -298,32 +298,31 @@ artilheiros(rivelino, 43).
 artilheiros(bebeto, 39).
 artilheiros(rivaldo, 37).
 
+
 /*(seleção1, gols1, gols2, seleção2, competição, ano).*/
-jogou(brasil, 1, 2, iugoslavia, copa_do_mundo, grupo, 1930).
-jogou(brasil, 1, 3, espanha, copa_do_mundo, grupo, 1934).
+%jogou(SELECAO1, GOLS1, GOLS2, SELECAO2, COMPETICAO, ANO) :- jogou(SELECAO2, GOLS2, GOLS1, SELECAO1, COMPETICAO, ANO).
+jogou(brasil, 1, 2, iugoslavia, copa_do_mundo, 1930).
+jogou(brasil, 1, 3, espanha, copa_do_mundo, 1934).
 jogou(brasil, 1, 1, tchecoslovaquia, copa_do_mundo, 1938).
 jogou(brasil, 2, 1, tchecoslovaquia, copa_do_mundo, 1938).
 jogou(brasil, 5, 2, suecia, copa_do_mundo, 1958).
 jogou(brasil, 0, 0, tchecoslovaquia, copa_do_mundo, 1962).
 jogou(brasil, 3, 1, tchecoslovaquia, copa_do_mundo, 1962).
-jogou(brasil, 1, 3, hungria, copa_do_mundo, grupo, 1966).
-jogou(brasil, 1, 3, portugal, copa_do_mundo, grupo, 1966).
+jogou(brasil, 1, 3, hungria, copa_do_mundo, 1966).
+jogou(brasil, 1, 3, portugal, copa_do_mundo, 1966).
 jogou(brasil, 4, 1, italia, copa_do_mundo, 1970).
 jogou(brasil, 0, 2, holanda, copa_do_mundo, 1974).
 jogou(brasil, 0, 1, polonia, copa_do_mundo, 1974).
 jogou(brasil, 2, 1, italia, copa_do_mundo, 1978).
 jogou(brasil, 1, 1, suecia, copa_do_mundo, 1994).
 jogou(brasil, 1, 0, suecia, copa_do_mundo, 1994).
-jogou(brasil, 1, 2, noruega, copa_do_mundo, grupo, 1998).
+jogou(brasil, 1, 2, noruega, copa_do_mundo, 1998).
 jogou(brasil, 0, 3, franca, copa_do_mundo, 1998).
 jogou(brasil, 2, 1, turquia, copa_do_mundo, 2002).
 jogou(brasil, 1, 0, turquia, copa_do_mundo, 2002).
 jogou(brasil, 1, 7, alemanha, copa_do_mundo, 2014).
 jogou(brasil, 0, 3, holanda, copa_do_mundo, 2014).
-
 jogou(brasil, 0, 6, uruguai, copa_america, 1920).
-
-jogou(SELECAO1, GOLS1, GOLS2, SELECAO2, COMPETICAO, ANO) :- jogou(SELECAO2, GOLS2, GOLS1, SELECAO1, COMPETICAO, ANO).
 
 
 /*serie sem derrota(jogos,desde,ultima_derrota,ate,fim_da_sequencia)*/
@@ -349,7 +348,3 @@ empate_estreia(2018, suica,1).
 /* copas em que o brasil jogou pelo 3o lugar (ano,adversario, gols_ad, gols_br)*/
 disputou_terceiro(1974, polonia, 1, 0).
 disputou_terceiro(1978, italia, 1, 2).
-
-
-
-

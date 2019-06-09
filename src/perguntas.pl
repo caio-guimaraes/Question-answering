@@ -1,24 +1,14 @@
-?- selecao(brasil).
+% Quais jogos do Brasil na Copa do Mundo teve uma diferença de 3 gols?
+?- jogou(brasil, GOLS1, GOLS2, SELECAO, copa_do_mundo, _) , 3 is abs(GOLS1 - GOLS2).
 
+% Nike patrocina o Brasil no ano 2000?
+?- patrocina(nike,2000).
 
+% Qual jogador do Brasil que usa a camisa 7 e em qual clube ele joga?
+?- numero(JOGADOR, 7) , clube(JOGADOR, CLUBE).
 
-/*copas em que brasil enfrentou 2x o mesmo adversario(adversario, ano)*/
-duas_vezes(tchecoslovaquia, 1938).
-duas_vezes(tchecoslovaquia, 1962).
-duas_vezes(suecia, 1994).
-duas_vezes(turquia, 2002).
+% Qual seleção jogou contra o Brasil resultando numa diferença de 3 gols e ganhou a copa e em qual ano?
+?- jogou(brasil, GOLS1, GOLS2, SELECAO, copa_do_mundo, _) , 3 is abs(GOLS1 - GOLS2), venceu(SELECAO, copa_do_mundo, ANO).
 
-
-
-
-/*copas que o brasil for derrotado 2x(ano, prim_adversario, gols_prim, gols_br, sec_adversario, gols_sec, gols_br)*/
-copa_derrotado_dois(1966, hungria,3,1,portugal,3,1).
-copa_derrotado_dois(1974, holanda,2,0,polonia1,1,0).
-copa_derrotado_dois(1998, noruega,2,1,franca,3,0).
-copa_derrotado_dois(2014, alemanha,7,1,holanda,3,0).
-
-
-/*finais com diferenca de gols 3 que o brasil participou(adversario,adversario_gols,brasil_gols,ano)*/
-final_dif_tres(suecia,2,5,1958).
-final_dif_tres(italia,1,4,1970).
-final_dif_tres(franca,3,0,1998).
+% Qual seleção sediou e venceu uma copa do mundo?
+?- venceu(SELECAO, copa_do_mundo, ANO),sede(copa_do_mundo, ANO, SELECAO).
