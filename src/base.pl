@@ -369,7 +369,52 @@ jogou(19, 1962).
 jogou(20, 1962).
 jogou(21, 1962).
 jogou(22, 1962).
-
+jogou(23, 1966).
+jogou(24, 1966).
+jogou(25, 1966).
+jogou(26, 1970).
+jogou(27, 1970).
+jogou(28, 1970).
+jogou(29, 1974).
+jogou(30, 1974).
+jogou(31, 1974).
+jogou(32, 1974).
+jogou(33, 1974).
+jogou(34, 1978).
+jogou(35, 1978).
+jogou(36, 1978).
+jogou(37, 1978).
+jogou(38, 1978).
+jogou(39, 1978).
+jogou(40, 1982).
+jogou(41, 1982).
+jogou(42, 1982).
+jogou(43, 1982).
+jogou(44, 1982).
+jogou(45, 1986).
+jogou(46, 1986).
+jogou(47, 1986).
+jogou(48, 1986).
+jogou(49, 1986).
+jogou(50, 1998).
+jogou(51, 1998).
+jogou(52, 1998).
+jogou(53, 2006).
+jogou(54, 2006).
+jogou(55, 2010).
+jogou(56, 2010).
+jogou(57, 2010).
+jogou(58, 2010).
+jogou(59, 2010).
+jogou(60, 2014).
+jogou(61, 2014).
+jogou(62, 2014).
+jogou(63, 2014).
+jogou(64, 2014).
+jogou(65, 2018).
+jogou(66, 2018).
+jogou(67, 2018).
+jogou(68, 2018).
 
 /*contra(id_jogo, adversario).*/
 contra(1, iugoslavia).
@@ -394,8 +439,52 @@ contra(19, espanha).
 contra(20, inglaterra).
 contra(21, chile).
 contra(22, tchecoslovaquia).
-
-
+contra(23, bulgaria).
+contra(24, Hungria).
+contra(25, Portugal).
+contra(26, Peru).
+contra(27, Uruguai).
+contra(28, Italia).
+contra(29, Zaire).
+contra(30, Alemanha Oriental).
+contra(31, Argentina).
+contra(32, Holanda).
+contra(33, Polônia).
+contra(34, Suécia).
+contra(35, Espanha).
+contra(36, Áustria).
+contra(37, Peru).
+contra(38, Argentina).
+contra(39, Polônia).
+contra(40, União Soviética).
+contra(41, Escócia).
+contra(42, Nova Zelândia).
+contra(43, Argentina).
+contra(44, Italia).
+contra(45, Espanha).
+contra(46, Argélia).
+contra(47, Irlanda do Norte).
+contra(48, Polônia).
+contra(49, França).
+contra(50, Noruega).
+contra(51, Chile).
+contra(52, Dinamarca).
+contra(53, Gana).
+contra(54, França).
+contra(55, Coreia do Norte).
+contra(56, Costa do Marfim).
+contra(57, Portugal).
+contra(58, Chile).
+contra(59, Países Baixos).
+contra(60, Croácia).
+contra(61, México).
+contra(62, Camarões).
+contra(63, Colômbia).
+contra(64, Alemanha).
+contra(65, Suíça).
+contra(66, Sérvia).
+contra(67, México).
+contra(68, Bélgica).
 
 /*placar(id_jogo, [gols_brasil, gols_adversario])*/
 placar(1, [1,2]).
@@ -420,6 +509,52 @@ placar(19, [2,1]).
 placar(20, [3,1]).
 placar(21, [4,2]).
 placar(22, [3,1]).
+placar(23, [2,0]).
+placar(24, [1,3]).
+placar(25, [1,3]).
+placar(26, [4,2]).
+placar(27, [3,1]).
+placar(28, [4,1]).
+placar(29, [3,0]).
+placar(30, [1,0]).
+placar(31, [2,1]).
+placar(32, [0,2]).
+placar(33, [0,1]).
+placar(34, [1,1]).
+placar(35, [0,0]).
+placar(36, [1,0]).
+placar(37, [3,0]).
+placar(38, [0,0]).
+placar(39, [3,1]).
+placar(40, [2,1]).
+placar(41, [4,1]).
+placar(42, [4,0]).
+placar(43, [3,1]).
+placar(44, [2,3]).
+placar(45, [1,0]).
+placar(46, [1,0]).
+placar(47, [3,0]).
+placar(48, [4,0]).
+placar(49, [4,3]).
+placar(50, [1,2]).
+placar(51, [4,1]).
+placar(52, [3,2]).
+placar(53, [3,0]).
+placar(54, [0,1]).
+placar(55, [2,1]).
+placar(56, [3,1]).
+placar(57, [0,0]).
+placar(58, [3,0]).
+placar(59, [1,2]).
+placar(60, [3,1]).
+placar(61, [0,0]).
+placar(62, [4,1]).
+placar(63, [2,1]).
+placar(64, [1,7]).
+placar(65, [1,1]).
+placar(66, [2,0]).
+placar(67, [2,0]).
+placar(68, [2,1]).
 
 /*(seleção1, gols1, gols2, seleção2, competição, ano).*/
 
