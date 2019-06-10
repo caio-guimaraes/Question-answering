@@ -23,6 +23,7 @@ digraph {
     brasil -> 1930[dir=none label=classificou];
     brasil -> 1934[dir=none label=classificou];
     brasil -> 1938[dir=none label=classificou];
+    brasil -> 1994[dir=none label=classificou];
 
     espanha -> 1934[dir=none label=classificou];
     suecia -> 1938[dir=none label=classificou];
@@ -31,6 +32,7 @@ digraph {
     1930-> uruguai[dir=none label=sede];
     1934-> italia[dir=none label=sede];
     1938-> franca[dir=none label=sede];
+    2014-> brasil[dir=none label=sede];
 
     2016-> riodejaneiro[dir=none label=sede_olimpiadas];
     
@@ -41,6 +43,7 @@ digraph {
     uruguai-> 1930[dir=none label=venceu_copa_do_mundo];
     italia-> 1934[dir=none label=venceu_copa_do_mundo];
     italia-> 1938[dir=none label=venceu_copa_do_mundo];
+    brasil-> 1994[dir=none label=venceu_copa_do_mundo];
 
     brasil-> 1919[dir=none label=venceu_copa_america];
     brasil-> 1922[dir=none label=venceu_copa_america];
@@ -56,12 +59,15 @@ digraph {
     guarana_antartica-> 2001_2019[dir=none label=patrocinador];
 
     alisson-> goleiro[dir=none label=jogador];
-    cassio-> goleiro[dir=none label=jogador];
-    ederson-> goleiro[dir=none label=jogador];
+    fagner-> lateral[dir=none label=jogador];
+    thiago_silva-> zagueiro[dir=none label=jogador];
+    fernandinho-> volante[dir=none label=jogador];
+    philippe_coutinho-> meia[dir=none label=jogador];
+    david_neres-> atacante[dir=none label=jogador];
     
     alisson-> 1[dir=none label=numero];
-    cassio-> 16[dir=none label=numero];
-    ederson-> 23[dir=none label=numero];
+    fagner-> 22[dir=none label=numero];
+    david_neres-> 7[dir=none label=numero];
     
     alisson-> liverpool[dir=none label=joga_no_clube];
     cassio-> corinthians[dir=none label=joga_no_clube];
