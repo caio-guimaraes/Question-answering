@@ -1,0 +1,578 @@
+digraph {
+    brasil -> Seleção Brasileira de Futebol[dir=none label=nome];
+    brasil -> cbf[dir=none label=associacao];
+    brasil -> conmebol[dir=none label=confederacao]; 
+    brasil -> Seleção Canarinho[dir=none label=apelido];   
+    brasil -> 1914[dir=none label=formada];
+
+    brasil -> brasil[dir=none label=selecao];
+    alemanha -> alemanha[dir=none label=selecao];
+    italia -> italia[dir=none label=selecao];
+    franca -> franca[dir=none label=selecao];
+    holanda -> holanda[dir=none label=selecao];
+    espanha -> espanha[dir=none label=selecao];
+    uruguai -> uruguai[dir=none label=selecao];
+    argentina -> argentina[dir=none label=selecao];
+    hungria -> hungria[dir=none label=selecao];
+    inglaterra -> inglaterra[dir=none label=selecao];
+    portugal -> portugal[dir=none label=selecao];
+    suecia -> suecia[dir=none label=selecao];
+    iugoslavia -> iugoslavia[dir=none label=selecao];
+    polonia -> polonia[dir=none label=selecao];
+    tchecoslovaquia -> tchecoslovaquia[dir=none label=selecao];
+    turquia -> turquia[dir=none label=selecao];
+    noruega -> noruega[dir=none label=selecao];
+
+    
+    pele -> brasil[dir=none label=maiores_jogadores];
+    garrincha -> brasil[dir=none label=maiores_jogadores];
+    vava -> brasil[dir=none label=maiores_jogadores];
+    ronaldo -> brasil[dir=none label=maiores_jogadores];
+    rivaldo -> brasil[dir=none label=maiores_jogadores];
+    romario -> brasil[dir=none label=maiores_jogadores];
+    ronaldinhogaucho -> brasil[dir=none label=maiores_jogadores];
+    rivellino -> brasil[dir=none label=maiores_jogadores];
+    zico -> brasil[dir=none label=maiores_jogadores];
+    jairizinho -> brasil[dir=none label=maiores_jogadores];
+    ademirdemenezes -> brasil[dir=none label=maiores_jogadores];
+    leonidasdasilva -> brasil[dir=none label=maiores_jogadores];
+    zagallo -> brasil[dir=none label=maiores_jogadores];
+    carlosalberto -> brasil[dir=none label=maiores_jogadores];
+    robertocarlos -> brasil[dir=none label=maiores_jogadores];
+    tostao -> brasil[dir=none label=maiores_jogadores];
+    didi -> brasil[dir=none label=maiores_jogadores];
+    bellini -> brasil[dir=none label=maiores_jogadores];
+    bebeto -> brasil[dir=none label=maiores_jogadores];
+
+    
+    
+    romario -> 1994[dir=none label=melhor_do_mundo];
+    ronaldo -> 1996[dir=none label=melhor_do_mundo];
+    ronaldo -> 1997[dir=none label=melhor_do_mundo];
+    ronaldo -> 2002[dir=none label=melhor_do_mundo];
+    ronaldinho_gaucho -> 2004[dir=none label=melhor_do_mundo];
+    ronaldinho_gaucho -> 2005[dir=none label=melhor_do_mundo];
+    kaka -> 2007[dir=none label=melhor_do_mundo];
+
+    
+    argentina -> argentina[dir=none label=rival];
+    uruguai -> uruguai[dir=none label=rival];
+    alemanha -> alemanha[dir=none label=rival];
+    italia -> italia[dir=none label=rival];
+    franca -> franca[dir=none label=rival];
+
+    
+    
+    brasil -> 1930[dir=none label=classificou];
+    brasil -> 1934[dir=none label=classificou];
+    brasil -> 1938[dir=none label=classificou];
+    brasil -> 1950[dir=none label=classificou];
+    brasil -> 1954[dir=none label=classificou];
+    brasil -> 1958[dir=none label=classificou];
+    brasil -> 1962[dir=none label=classificou];
+    brasil -> 1966[dir=none label=classificou];
+    brasil -> 1970[dir=none label=classificou];
+    brasil -> 1974[dir=none label=classificou];
+    brasil -> 1978[dir=none label=classificou];
+    brasil -> 1982[dir=none label=classificou];
+    brasil -> 1986[dir=none label=classificou];
+    brasil -> 1990[dir=none label=classificou];
+    brasil -> 1994[dir=none label=classificou];
+    brasil -> 1998[dir=none label=classificou];
+    brasil -> 2002[dir=none label=classificou];
+    brasil -> 2006[dir=none label=classificou];
+    brasil -> 2010[dir=none label=classificou];
+    brasil -> 2014[dir=none label=classificou];
+    brasil -> 2018[dir=none label=classificou];
+
+    espanha -> 1934[dir=none label=classificou];
+    suecia -> 1938[dir=none label=classificou];
+    suecia -> 1950[dir=none label=classificou];
+    espanha -> 1950[dir=none label=classificou];
+    hungria -> 1954[dir=none label=classificou];
+    inglaterra -> 1958[dir=none label=classificou];
+    inglaterra -> 1962[dir=none label=classificou];
+    hungria -> 1966[dir=none label=classificou];
+    portugal -> 1966[dir=none label=classificou];
+    alemanha -> 1966[dir=none label=classificou];
+    uruguai -> 1970[dir=none label=classificou];
+    italia -> 1970[dir=none label=classificou];
+    argentina -> 1974[dir=none label=classificou];
+    holanda -> 1974[dir=none label=classificou];
+    suecia -> 1978[dir=none label=classificou];
+    espanha -> 1978[dir=none label=classificou];
+    argentina -> 1982[dir=none label=classificou];
+    franca -> 1982[dir=none label=classificou];
+    alemanha -> 1982[dir=none label=classificou];
+    espanha -> 1986[dir=none label=classificou];
+    franca -> 1986[dir=none label=classificou];
+    argentina -> 1990[dir=none label=classificou];
+    suecia -> 1994[dir=none label=classificou];
+    holanda -> 1994[dir=none label=classificou];
+    italia -> 1994[dir=none label=classificou];
+    holanda -> 1998[dir=none label=classificou];
+    inglaterra -> 2002[dir=none label=classificou];
+    alemanha -> 2002[dir=none label=classificou];
+    franca -> 2006[dir=none label=classificou];
+    inglaterra -> 2006[dir=none label=classificou];
+    holanda -> 2010[dir=none label=classificou];
+    portugal -> 2010[dir=none label=classificou];
+    holanda -> 2014[dir=none label=classificou];
+    argentina -> 2014[dir=none label=classificou];
+    argentina -> 2018[dir=none label=classificou];
+    inglaterra -> 2018[dir=none label=classificou];
+    alemanha-> 2018[dir=none label=classificou];
+
+    
+    
+    
+    
+    
+    
+    1930-> uruguai[dir=none label=sede];
+    1934-> italia[dir=none label=sede];
+    1938-> franca[dir=none label=sede];
+    1950-> brasil[dir=none label=sede];
+    1954-> suica[dir=none label=sede];
+    1958-> suecia[dir=none label=sede];
+    1962-> chile[dir=none label=sede];
+    1966-> inglaterra[dir=none label=sede];
+    1970-> mexico[dir=none label=sede];
+    1974-> alemanha[dir=none label=sede];
+    1978-> argentina[dir=none label=sede];
+    1982-> espanha[dir=none label=sede];
+    1986-> mexico[dir=none label=sede];
+    1990-> italia[dir=none label=sede];
+    1994-> eua[dir=none label=sede];
+    1998-> franca[dir=none label=sede];
+    2002-> coreiadosul[dir=none label=sede];
+    2002-> japao[dir=none label=sede];
+    2006-> alemanha[dir=none label=sede];
+    2010-> africadosul[dir=none label=sede];
+    2014-> brasil[dir=none label=sede];
+    2018-> russia[dir=none label=sede];
+
+    2016-> riodejaneiro[dir=none label=sede_olimpiadas];
+
+    
+    
+    iugoslavia-> 1930[dir=none label=eliminado_por];
+    espanha-> 1934[dir=none label=eliminado_por];
+    italia-> 1938[dir=none label=eliminado_por];
+    uruguai-> 1950[dir=none label=eliminado_por];
+    hungria-> 1954[dir=none label=eliminado_por];
+    portugal-> 1966[dir=none label=eliminado_por];
+    holanda-> 1974[dir=none label=eliminado_por];
+    argentina-> 1978[dir=none label=eliminado_por];
+    italia-> 1982[dir=none label=eliminado_por];
+    franca-> 1986[dir=none label=eliminado_por];
+    argentina-> 1990[dir=none label=eliminado_por];
+    franca-> 1998[dir=none label=eliminado_por];
+    franca-> 2006[dir=none label=eliminado_por];
+    holanda-> 2010[dir=none label=eliminado_por];
+    alemanha-> 2014[dir=none label=eliminado_por];
+    belgica-> 2018[dir=none label=eliminado_por];
+
+
+    uruguai-> 1930[dir=none label=venceu_copa_do_mundo];
+    italia-> 1934[dir=none label=venceu_copa_do_mundo];
+    italia-> 1938[dir=none label=venceu_copa_do_mundo];
+    uruguai-> 1950[dir=none label=venceu_copa_do_mundo];
+    alemanha-> 1954[dir=none label=venceu_copa_do_mundo];
+    brasil-> 1958[dir=none label=venceu_copa_do_mundo];
+    brasil-> 1962[dir=none label=venceu_copa_do_mundo];
+    inglaterra-> 1966[dir=none label=venceu_copa_do_mundo];
+    brasil-> 1970[dir=none label=venceu_copa_do_mundo];
+    alemanha-> 1974[dir=none label=venceu_copa_do_mundo];
+    argentina-> 1978[dir=none label=venceu_copa_do_mundo];
+    italia-> 1982[dir=none label=venceu_copa_do_mundo];
+    argentina-> 1986[dir=none label=venceu_copa_do_mundo];
+    alemanha-> 1990[dir=none label=venceu_copa_do_mundo];
+    brasil-> 1994[dir=none label=venceu_copa_do_mundo];
+    franca-> 1998[dir=none label=venceu_copa_do_mundo];
+    brasil-> 2002[dir=none label=venceu_copa_do_mundo];
+    italia-> 2006[dir=none label=venceu_copa_do_mundo];
+    espanha-> 2010[dir=none label=venceu_copa_do_mundo];
+    alemanha-> 2014[dir=none label=venceu_copa_do_mundo];
+    franca-> 2018[dir=none label=venceu_copa_do_mundo];
+
+    brasil-> 1919[dir=none label=venceu_copa_america];
+    brasil-> 1922[dir=none label=venceu_copa_america];
+    brasil-> 1949[dir=none label=venceu_copa_america];
+    brasil-> 1989[dir=none label=venceu_copa_america];
+    brasil-> 1997[dir=none label=venceu_copa_america];
+    brasil-> 1999[dir=none label=venceu_copa_america];
+    brasil-> 2004[dir=none label=venceu_copa_america];
+    brasil-> 2007[dir=none label=venceu_copa_america];
+
+    brasil-> 1997[dir=none label=venceu_copa_das_confederacoes];
+    brasil-> 2005[dir=none label=venceu_copa_das_confederacoes];
+    brasil-> 2009[dir=none label=venceu_copa_das_confederacoes];
+    brasil-> 2013[dir=none label=venceu_copa_das_confederacoes];
+
+    brasil-> 2016[dir=none label=venceu_olimpiadas];
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    jogador-> [amarelo, azul, branco][dir=none label=uniforme_principal];
+    goleiro-> [preto, preto, preto][dir=none label=uniforme_principal];
+
+    jogador-> [azul, branco, azul][dir=none label=uniforme_visitante];
+    goleiro-> [cinza, cinza, cinza][dir=none label=uniforme_visitante];
+
+    jogador-> [azul, branco, branco][dir=none label=uniforme_alternativo];
+    goleiro-> [verde_claro, verde_claro, verde_claro][dir=none label=uniforme_alternativo];
+
+    jogador-> [verde_escuro, verde_escuro, branco][dir=none label=uniforme_treino];
+    goleiro-> [verde_claro, verde_escuro, branco][dir=none label=uniforme_treino];
+    comissao_tecnica-> [branco, verde_escuro, branco][dir=none label=uniforme_treino];
+
+
+
+    itau-> [2008, 2022][dir=none label=patrocinador];
+    vivo-> [2005, 2023][dir=none label=patrocinador];
+    guarana_antartica-> [2001, 2019][dir=none label=patrocinador];
+    mastercard-> [2012, 2020][dir=none label=patrocinador];
+    gol-> [2013, 2021][dir=none label=patrocinador];
+    ultrafarma-> [2015, 2045][dir=none label=patrocinador];
+    cimed-> [2016, 2023][dir=none label=patrocinador];
+    semp-> [2019, 2022][dir=none label=patrocinador];
+    nike-> [1996, 2018][dir=none label=patrocinador];
+
+
+
+
+
+
+
+
+    alisson-> goleiro[dir=none label=jogador];
+    cassio-> goleiro[dir=none label=jogador];
+    ederson-> goleiro[dir=none label=jogador];
+    filipe_luis-> lateral[dir=none label=jogador];
+    alex_sandro-> lateral[dir=none label=jogador];
+    daniel_alves-> lateral[dir=none label=jogador];
+    fagner-> lateral[dir=none label=jogador];
+    thiago_silva-> zagueiro[dir=none label=jogador];
+    miranda-> zagueiro[dir=none label=jogador];
+    marquinhos-> zagueiro[dir=none label=jogador];
+    eder_militao-> zagueiro[dir=none label=jogador];
+    casemiro-> volante[dir=none label=jogador];
+    arthur-> volante[dir=none label=jogador];
+    allan-> volante[dir=none label=jogador];
+    fernandinho-> volante[dir=none label=jogador];
+    philippe_coutinho-> meia[dir=none label=jogador];
+    lucas_paqueta-> meia[dir=none label=jogador];
+    david_neres-> atacante[dir=none label=jogador];
+    gabriel_jesus-> atacante[dir=none label=jogador];
+    neymar-> atacante[dir=none label=jogador];
+    everton-> atacante[dir=none label=jogador];
+    roberto_firmino-> atacante[dir=none label=jogador];
+    richarlison-> atacante[dir=none label=jogador];
+
+    
+    alisson-> 1[dir=none label=numero];
+    cassio-> 16[dir=none label=numero];
+    ederson-> 23[dir=none label=numero];
+    filipe_luis-> 6[dir=none label=numero];
+    alex_sandro-> 12[dir=none label=numero];
+    daniel_alves-> 13[dir=none label=numero];
+    fagner-> 22[dir=none label=numero];
+    thiago_silva-> 2[dir=none label=numero];
+    miranda-> 3[dir=none label=numero];
+    marquinhos-> 4[dir=none label=numero];
+    eder_militao-> 14[dir=none label=numero];
+    casemiro-> 5[dir=none label=numero];
+    arthur-> 8[dir=none label=numero];
+    allan-> 15[dir=none label=numero];
+    fernandinho-> 17[dir=none label=numero];
+    philippe_coutinho-> 11[dir=none label=numero];
+    lucas_paqueta-> 18[dir=none label=numero];
+    david_neres-> 7[dir=none label=numero];
+    gabriel_jesus-> 9[dir=none label=numero];
+    neymar-> 10[dir=none label=numero];
+    everton-> 19[dir=none label=numero];
+    roberto_firmino-> 20[dir=none label=numero];
+    richarlison-> 21[dir=none label=numero];
+
+    
+    alisson-> liverpool[dir=none label=joga_no_clube];
+    cassio-> corinthians[dir=none label=joga_no_clube];
+    ederson-> manchester_city[dir=none label=joga_no_clube];
+    filipe_luis-> atletico_de_madrid[dir=none label=joga_no_clube];
+    alex_sandro-> juventus[dir=none label=joga_no_clube];
+    daniel_alves-> paris_saint_germain[dir=none label=joga_no_clube];
+    fagner-> corinthians[dir=none label=joga_no_clube];
+    thiago_silva-> paris_saint_germain[dir=none label=joga_no_clube];
+    miranda-> internazionale[dir=none label=joga_no_clube];
+    marquinhos-> paris_saint_germain[dir=none label=joga_no_clube];
+    eder_militao-> porto[dir=none label=joga_no_clube];
+    casemiro-> real_madrid[dir=none label=joga_no_clube];
+    arthur-> barcelona[dir=none label=joga_no_clube];
+    allan-> napoli[dir=none label=joga_no_clube];
+    fernandinho-> manchester_city[dir=none label=joga_no_clube];
+    philippe_coutinho-> barcelona[dir=none label=joga_no_clube];
+    lucas_paqueta-> milan[dir=none label=joga_no_clube];
+    david_neres-> ajax[dir=none label=joga_no_clube];
+    gabriel_jesus-> manchester_city[dir=none label=joga_no_clube];
+    neymar-> paris_saint_germain[dir=none label=joga_no_clube];
+    everton-> gremio[dir=none label=joga_no_clube];
+    roberto_firmino-> liverpool[dir=none label=joga_no_clube];
+    richarlison-> everton[dir=none label=joga_no_clube];
+
+
+
+    pele-> 77[dir=none label=artilheiros];
+    ronaldo-> 67[dir=none label=artilheiros];
+    zico-> 66[dir=none label=artilheiros];
+    neymar-> 59[dir=none label=artilheiros];
+    romario-> 55[dir=none label=artilheiros];
+    jairizinho-> 44[dir=none label=artilheiros];
+    rivelino-> 43[dir=none label=artilheiros];
+    bebeto-> 39[dir=none label=artilheiros];
+    rivaldo-> 37[dir=none label=artilheiros];
+
+
+    
+    1-> 1930[dir=none label=jogou];
+    2-> 1934[dir=none label=jogou];
+    3-> 1938[dir=none label=jogou];
+    4-> 1938[dir=none label=jogou];
+    5-> 1938[dir=none label=jogou];
+    6-> 1950[dir=none label=jogou];
+    7-> 1950[dir=none label=jogou];
+    8-> 1950[dir=none label=jogou];
+    9-> 1950[dir=none label=jogou];
+    10-> 1950[dir=none label=jogou];
+    11-> 1950[dir=none label=jogou];
+    12-> 1954[dir=none label=jogou];
+    13-> 1958[dir=none label=jogou];
+    14-> 1958[dir=none label=jogou];
+    15-> 1958[dir=none label=jogou];
+    16-> 1958[dir=none label=jogou];
+    17-> 1962[dir=none label=jogou];
+    18-> 1962[dir=none label=jogou];
+    19-> 1962[dir=none label=jogou];
+    20-> 1962[dir=none label=jogou];
+    21-> 1962[dir=none label=jogou];
+    22-> 1962[dir=none label=jogou];
+    23-> 1966[dir=none label=jogou];
+    24-> 1966[dir=none label=jogou];
+    25-> 1966[dir=none label=jogou];
+    26-> 1970[dir=none label=jogou];
+    27-> 1970[dir=none label=jogou];
+    28-> 1970[dir=none label=jogou];
+    29-> 1974[dir=none label=jogou];
+    30-> 1974[dir=none label=jogou];
+    31-> 1974[dir=none label=jogou];
+    32-> 1974[dir=none label=jogou];
+    33-> 1974[dir=none label=jogou];
+    34-> 1978[dir=none label=jogou];
+    35-> 1978[dir=none label=jogou];
+    36-> 1978[dir=none label=jogou];
+    37-> 1978[dir=none label=jogou];
+    38-> 1978[dir=none label=jogou];
+    39-> 1978[dir=none label=jogou];
+    40-> 1978[dir=none label=jogou];
+    41-> 1982[dir=none label=jogou];
+    42-> 1982[dir=none label=jogou];
+    43-> 1982[dir=none label=jogou];
+    44-> 1982[dir=none label=jogou];
+    45-> 1982[dir=none label=jogou];
+    46-> 1986[dir=none label=jogou];
+    47-> 1986[dir=none label=jogou];
+    48-> 1986[dir=none label=jogou];
+    49-> 1986[dir=none label=jogou];
+    50-> 1986[dir=none label=jogou];
+    51-> 1994[dir=none label=jogou];
+    52-> 1994[dir=none label=jogou];
+    53-> 1998[dir=none label=jogou];
+    54-> 1998[dir=none label=jogou];
+    55-> 1998[dir=none label=jogou];
+    56-> 1998[dir=none label=jogou];
+    57-> 1998[dir=none label=jogou];
+    58-> 2002[dir=none label=jogou];
+    59-> 2002[dir=none label=jogou];
+    60-> 2006[dir=none label=jogou];
+    61-> 2006[dir=none label=jogou];
+    62-> 2010[dir=none label=jogou];
+    63-> 2010[dir=none label=jogou];
+    64-> 2010[dir=none label=jogou];
+    65-> 2010[dir=none label=jogou];
+    66-> 2010[dir=none label=jogou];
+    67-> 2014[dir=none label=jogou];
+    68-> 2014[dir=none label=jogou];
+    69-> 2014[dir=none label=jogou];
+    70-> 2014[dir=none label=jogou];
+    71-> 2014[dir=none label=jogou];
+    72-> 2014[dir=none label=jogou];
+    73-> 2018[dir=none label=jogou];
+    74-> 2018[dir=none label=jogou];
+    75-> 2018[dir=none label=jogou];
+    76-> 2018[dir=none label=jogou];
+
+
+    1-> iugoslavia[dir=none label=contra];
+    2-> espanha[dir=none label=contra];
+    3-> tchecoslovaquia[dir=none label=contra];
+    4-> tchecoslovaquia[dir=none label=contra];
+    5-> italia[dir=none label=contra];
+    6-> mexico[dir=none label=contra];
+    7-> suica[dir=none label=contra];
+    8-> iugoslavia[dir=none label=contra];
+    9-> suecia[dir=none label=contra];
+    10-> espanha[dir=none label=contra];
+    11-> uruguai[dir=none label=contra];
+    12-> hungria[dir=none label=contra];
+    13-> austria[dir=none label=contra];
+    14-> inglaterra[dir=none label=contra];
+    15-> uniao_sovietica[dir=none label=contra];
+    16-> suecia[dir=none label=contra];
+    17-> mexico[dir=none label=contra];
+    18-> tchecoslovaquia[dir=none label=contra];
+    19-> espanha[dir=none label=contra];
+    20-> inglaterra[dir=none label=contra];
+    21-> chile[dir=none label=contra];
+    22-> tchecoslovaquia[dir=none label=contra];
+    23-> bulgaria[dir=none label=contra];
+    24-> hungria[dir=none label=contra];
+    25-> portugal[dir=none label=contra];
+    26-> peru[dir=none label=contra];
+    27-> uruguai[dir=none label=contra];
+    28-> italia[dir=none label=contra];
+    29-> zaire[dir=none label=contra];
+    30-> alemanha[dir=none label=contra];
+    31-> argentina[dir=none label=contra];
+    32-> holanda[dir=none label=contra];
+    33-> polonia[dir=none label=contra];
+    34-> suecia[dir=none label=contra];
+    35-> espanha[dir=none label=contra];
+    36-> austria[dir=none label=contra];
+    37-> peru[dir=none label=contra];
+    38-> argentina[dir=none label=contra];
+    39-> polonia[dir=none label=contra];
+    40-> italia[dir=none label=contra];
+    41-> uniao_sovietica[dir=none label=contra];
+    42-> escocia[dir=none label=contra];
+    43-> nova_zelandia[dir=none label=contra];
+    44-> argentina[dir=none label=contra];
+    45-> italia[dir=none label=contra];
+    46-> espanha[dir=none label=contra];
+    47-> argelia[dir=none label=contra];
+    48-> irlanda_do_norte[dir=none label=contra];
+    49-> polonia[dir=none label=contra];
+    50-> franca[dir=none label=contra];
+    51-> suecia[dir=none label=contra];
+    52-> suecia[dir=none label=contra];
+    53-> noruega[dir=none label=contra];
+    54-> chile[dir=none label=contra];
+    55-> dinamarca[dir=none label=contra];
+    56-> holanda[dir=none label=contra];
+    57-> franca[dir=none label=contra];
+    58-> turquia[dir=none label=contra];
+    59-> turquia[dir=none label=contra];
+    60-> gana[dir=none label=contra];
+    61-> franca[dir=none label=contra];
+    62-> coreia_do_norte[dir=none label=contra];
+    63-> costa_do_marfim[dir=none label=contra];
+    64-> portugal[dir=none label=contra];
+    65-> chile[dir=none label=contra];
+    66-> holanda[dir=none label=contra];
+    67-> croacia[dir=none label=contra];
+    68-> mexico[dir=none label=contra];
+    69-> camaroes[dir=none label=contra];
+    70-> colombia[dir=none label=contra];
+    71-> alemanha[dir=none label=contra];
+    72-> holanda[dir=none label=contra];
+    73-> suica[dir=none label=contra];
+    74-> servia[dir=none label=contra];
+    75-> mexico[dir=none label=contra];
+    76-> belgica[dir=none label=contra];
+
+    
+    1-> [1,2][dir=none label=placar];
+    2-> [1,3][dir=none label=placar];
+    3-> [1,1][dir=none label=placar];
+    4-> [2,1][dir=none label=placar];
+    5-> [2,3][dir=none label=placar];
+    6-> [4,0][dir=none label=placar];
+    7-> [2,2][dir=none label=placar];
+    8-> [2,0][dir=none label=placar];
+    9-> [7,1][dir=none label=placar];
+    10-> [6,1][dir=none label=placar];
+    11-> [1,2][dir=none label=placar];
+    12-> [2,4][dir=none label=placar];
+    13-> [3,0][dir=none label=placar];
+    14-> [0,0][dir=none label=placar];
+    15-> [2,0][dir=none label=placar];
+    16-> [5,2][dir=none label=placar];
+    17-> [2,0][dir=none label=placar];
+    18-> [0,0][dir=none label=placar];
+    19-> [2,1][dir=none label=placar];
+    20-> [3,1][dir=none label=placar];
+    21-> [4,2][dir=none label=placar];
+    22-> [3,1][dir=none label=placar];
+    23-> [2,0][dir=none label=placar];
+    24-> [1,3][dir=none label=placar];
+    25-> [1,3][dir=none label=placar];
+    26-> [4,2][dir=none label=placar];
+    27-> [3,1][dir=none label=placar];
+    28-> [4,1][dir=none label=placar];
+    29-> [3,0][dir=none label=placar];
+    30-> [1,0][dir=none label=placar];
+    31-> [2,1][dir=none label=placar];
+    32-> [0,2][dir=none label=placar];
+    33-> [0,1][dir=none label=placar];
+    34-> [1,1][dir=none label=placar];
+    35-> [0,0][dir=none label=placar];
+    36-> [1,0][dir=none label=placar];
+    37-> [3,0][dir=none label=placar];
+    38-> [0,0][dir=none label=placar];
+    39-> [3,1][dir=none label=placar];
+    40-> [2,1][dir=none label=placar];
+    41-> [2,1][dir=none label=placar];
+    42-> [4,1][dir=none label=placar];
+    43-> [4,0][dir=none label=placar];
+    44-> [3,1][dir=none label=placar];
+    45-> [2,3][dir=none label=placar];
+    46-> [1,0][dir=none label=placar];
+    47-> [1,0][dir=none label=placar];
+    48-> [3,0][dir=none label=placar];
+    49-> [4,0][dir=none label=placar];
+    50-> [4,3][dir=none label=placar];
+    51-> [1,1][dir=none label=placar];
+    52-> [1,0][dir=none label=placar];
+    53-> [1,2][dir=none label=placar];
+    54-> [4,1][dir=none label=placar];
+    55-> [3,2][dir=none label=placar];
+    56-> [1,1][dir=none label=placar];
+    57-> [0,3][dir=none label=placar];
+    58-> [2,1][dir=none label=placar];
+    59-> [1,0][dir=none label=placar];
+    60-> [3,0][dir=none label=placar];
+    61-> [0,1][dir=none label=placar];
+    62-> [2,1][dir=none label=placar];
+    63-> [3,1][dir=none label=placar];
+    64-> [0,0][dir=none label=placar];
+    65-> [3,0][dir=none label=placar];
+    66-> [1,2][dir=none label=placar];
+    67-> [3,1][dir=none label=placar];
+    68-> [0,0][dir=none label=placar];
+    69-> [4,1][dir=none label=placar];
+    70-> [2,1][dir=none label=placar];
+    71-> [1,7][dir=none label=placar];
+    72-> [0,3][dir=none label=placar];
+    73-> [1,1][dir=none label=placar];
+    74-> [2,0][dir=none label=placar];
+    75-> [2,0][dir=none label=placar];
+    76-> [1,2][dir=none label=placar];
+}
