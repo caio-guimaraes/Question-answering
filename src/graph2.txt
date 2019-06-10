@@ -1,0 +1,85 @@
+digraph {
+    brasil -> SeleçãoBrasileiradeFutebol[dir=none label=nome];
+    brasil -> cbf[dir=none label=associacao];
+    brasil -> conmebol[dir=none label=confederacao]; 
+
+    brasil -> brasil[dir=none label=selecao];
+    alemanha -> alemanha[dir=none label=selecao];
+    italia -> italia[dir=none label=selecao];
+    
+    pele -> brasil[dir=none label=maiores_jogadores];
+    garrincha -> brasil[dir=none label=maiores_jogadores];
+    vava -> brasil[dir=none label=maiores_jogadores];
+    
+    romario -> 1994[dir=none label=melhor_do_mundo];
+    ronaldo -> 1996[dir=none label=melhor_do_mundo];
+    ronaldo -> 1997[dir=none label=melhor_do_mundo];
+
+    
+    argentina -> argentina[dir=none label=rival];
+    uruguai -> uruguai[dir=none label=rival];
+    alemanha -> alemanha[dir=none label=rival];
+    
+    brasil -> 1930[dir=none label=classificou];
+    brasil -> 1934[dir=none label=classificou];
+    brasil -> 1938[dir=none label=classificou];
+
+    espanha -> 1934[dir=none label=classificou];
+    suecia -> 1938[dir=none label=classificou];
+    suecia -> 1950[dir=none label=classificou];
+    
+    1930-> uruguai[dir=none label=sede];
+    1934-> italia[dir=none label=sede];
+    1938-> franca[dir=none label=sede];
+
+    2016-> riodejaneiro[dir=none label=sede_olimpiadas];
+    
+    iugoslavia-> 1930[dir=none label=eliminado_por];
+    espanha-> 1934[dir=none label=eliminado_por];
+    italia-> 1938[dir=none label=eliminado_por];
+
+    uruguai-> 1930[dir=none label=venceu_copa_do_mundo];
+    italia-> 1934[dir=none label=venceu_copa_do_mundo];
+    italia-> 1938[dir=none label=venceu_copa_do_mundo];
+
+    brasil-> 1919[dir=none label=venceu_copa_america];
+    brasil-> 1922[dir=none label=venceu_copa_america];
+    brasil-> 1949[dir=none label=venceu_copa_america];
+
+    brasil-> 1997[dir=none label=venceu_copa_das_confederacoes];
+    brasil-> 2005[dir=none label=venceu_copa_das_confederacoes];
+
+    brasil-> 2016[dir=none label=venceu_olimpiadas];
+
+    itau-> 2008_2022[dir=none label=patrocinador];
+    vivo-> 2005_2023[dir=none label=patrocinador];
+    guarana_antartica-> 2001_2019[dir=none label=patrocinador];
+
+    alisson-> goleiro[dir=none label=jogador];
+    cassio-> goleiro[dir=none label=jogador];
+    ederson-> goleiro[dir=none label=jogador];
+    
+    alisson-> 1[dir=none label=numero];
+    cassio-> 16[dir=none label=numero];
+    ederson-> 23[dir=none label=numero];
+    
+    alisson-> liverpool[dir=none label=joga_no_clube];
+    cassio-> corinthians[dir=none label=joga_no_clube];
+    ederson-> manchester_city[dir=none label=joga_no_clube];
+
+    pele-> 77[dir=none label=artilheiros];
+    ronaldo-> 67[dir=none label=artilheiros];
+    zico-> 66[dir=none label=artilheiros];
+    
+    1-> 1930[dir=none label=jogou];
+    2-> 1934[dir=none label=jogou];
+    3-> 1938[dir=none label=jogou];
+
+    1-> iugoslavia[dir=none label=contra];
+    2-> espanha[dir=none label=contra];
+    3-> tchecoslovaquia[dir=none label=contra];
+    
+    1-> 1_2[dir=none label=placar];
+    2-> 1_3[dir=none label=placar];
+    3-> 1_1[dir=none label=placar];
+}
