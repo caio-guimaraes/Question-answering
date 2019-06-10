@@ -1,4 +1,4 @@
-digraph {
+﻿digraph {
     brasil -> SeleçãoBrasileiradeFutebol[dir=none label=nome];
     brasil -> cbf[dir=none label=associacao];
     brasil -> conmebol[dir=none label=confederacao]; 
@@ -54,9 +54,9 @@ digraph {
 
     brasil-> 2016[dir=none label=venceu_olimpiadas];
 
-    itau-> 2008_2022[dir=none label=patrocinador];
-    vivo-> 2005_2023[dir=none label=patrocinador];
-    guarana_antartica-> 2001_2019[dir=none label=patrocinador];
+    itau-> 2008-2022[dir=none label=patrocinador];
+    vivo-> 2005-2023[dir=none label=patrocinador];
+    guarana_antartica-> 2001-2019[dir=none label=patrocinador];
 
     alisson-> goleiro[dir=none label=jogador];
     fagner-> lateral[dir=none label=jogador];
@@ -71,7 +71,7 @@ digraph {
     
     alisson-> liverpool[dir=none label=joga_no_clube];
     cassio-> corinthians[dir=none label=joga_no_clube];
-    ederson-> manchester_city[dir=none label=joga_no_clube];
+    ederson-> manchesterCity[dir=none label=joga_no_clube];
 
     pele-> 77[dir=none label=artilheiros];
     ronaldo-> 67[dir=none label=artilheiros];
@@ -85,7 +85,7 @@ digraph {
     2-> espanha[dir=none label=contra];
     3-> tchecoslovaquia[dir=none label=contra];
     
-    1-> 1_2[dir=none label=placar];
-    2-> 1_3[dir=none label=placar];
-    3-> 1_1[dir=none label=placar];
+    1-> 1-2[dir=none label=placar];
+    2-> 1-3[dir=none label=placar];
+    3-> 1-1[dir=none label=placar];
 }
